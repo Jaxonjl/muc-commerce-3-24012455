@@ -1,0 +1,14 @@
+﻿处理步骤,处理规则,处理前记录数,处理后记录数,影响记录数
+删除完全重复行,完全相同的记录不增加信息，删除重复行,5630,5630,0
+缺失值填补,Tenure 使用总体中位数填补，稳健且不将缺失误解为0,264,0,264
+缺失值填补,WarehouseToHome 使用总体中位数填补，稳健且不将缺失误解为0,251,0,251
+缺失值填补,HourSpendOnApp 使用总体中位数填补，稳健且不将缺失误解为0,255,0,255
+缺失值填补,OrderAmountHikeFromlastYear 使用总体中位数填补，稳健且不将缺失误解为0,265,0,265
+缺失值填补,CouponUsed 使用总体中位数填补，稳健且不将缺失误解为0,256,0,256
+缺失值填补,OrderCount 使用总体中位数填补，稳健且不将缺失误解为0,258,0,258
+缺失值填补,DaySinceLastOrder 使用总体中位数填补，稳健且不将缺失误解为0,307,0,307
+类别标准化,PreferredLoginDevice 统一业务类别命名：{'Phone': 'Mobile Phone'},1231,0,1231
+类别标准化,"PreferredPaymentMode 统一业务类别命名：{'COD': 'Cash on Delivery', 'CC': 'Credit Card'}",638,0,638
+类别标准化,PreferedOrderCat 统一业务类别命名：{'Mobile': 'Mobile Phone'},809,0,809
+数据类型转换,Churn 转为整数类型,5630,5630,0
+数据类型转换,Complain 转为整数类型,5630,5630,0
