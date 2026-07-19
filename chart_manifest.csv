@@ -1,0 +1,6 @@
+﻿chart_id,file_name,business_question,chart_type,key_finding,limitation
+01,01_category_bar.png,各商品类别的订单数量和销售额哪个最高？,bar,偏好品类用户数差异显著，用户规模大的品类流失率相对较低。,该图只能说明品类间差异，不能解释原因。
+02,02_behavior_scatter.png,客户活跃度与累计消费是否存在关联？,scatter,高订单数用户的返现金额总体更高，已流失用户分布较散。,散点图仅展示相关性，不证明因果关系。
+03,03_ordered_line.png,不同用户级别或时间段的订单趋势如何变化？,line,TenureGroup 流失率呈现阶段性变化，新用户和老阶段流失率较高。,TenureGroup 是阶段，不等同于连续时间序列。
+04,04_composition_chart.png,不同渠道/客户类型的用户构成比例是多少？,pie_or_bar,CityTier 构成显示中高线城市用户占比较大。,用户构成不等于贡献度，不能直接说明营收结构。
+05,day06_visualization_summary.png,整体概览,dashboard,从4张图一起看，用户规模、流失率、订单行为和城市构成形成了完整画像。,综合图为概览，不适合查看单图的精细数据。
